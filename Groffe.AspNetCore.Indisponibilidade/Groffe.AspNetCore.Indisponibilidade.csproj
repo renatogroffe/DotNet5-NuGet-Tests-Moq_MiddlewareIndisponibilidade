@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Groffe.AspNetCore.Indisponibilidade</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Renato Groffe</Authors>
+    <Company>Groffe</Company>
+    <PackageTags>NuGet;.NET;Classlib;Middleware;Indisponibilidade</PackageTags>
+    <Description>
+      Middleware a ser utilizado em APIs REST para impedir o acesso às mesmas
+      durante períodos de indisponibilidade (previamente cadastrados)
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentMigrator" Version="3.2.15" />
+    <PackageReference Include="FluentMigrator.Runner" Version="3.2.15" />
+    <PackageReference Include="FluentMigrator.Runner.SQLite" Version="3.2.15" />
+    <PackageReference Include="FluentMigrator.Runner.SqlServer" Version="3.2.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="2.1.1" />
+    <PackageReference Include="System.Data.SQLite" Version="1.0.113.7" />
+  </ItemGroup>
+
+</Project>
